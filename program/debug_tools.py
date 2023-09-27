@@ -6,7 +6,7 @@ import os
 script_name = os.path.basename(os.path.abspath(__file__))
 
 # openai.api_base = "https://api.chatanywhere.com.cn/v1"
-openai.api_key = "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"
+openai.api_key = ""
 
 # 这里修改为你要执行的脚本名称
 hook_file = 'Jump回归.py'
