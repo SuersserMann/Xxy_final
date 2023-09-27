@@ -1,2 +1,14 @@
 #### This repository contains all scripts for analyzing the sensitivity of option returns to volatility risk and jump risk
-##### 
+##### [calc_IV.py: Calculates the implied volatility of an option](https://github.com/JiahaoLi-creator/Zhejiang-Gongshang-University-Equity-Investment-Intern/blob/master/program/Calc_IV.py)
+##### [Calc_Portfolio_Returns.py：Calculates the YTM for each set of option portfolios](https://github.com/JiahaoLi-creator/Zhejiang-Gongshang-University-Equity-Investment-Intern/blob/master/program/Calc_Portfolio_Returns.py)
+##### [Function.py：Includes functions for option classification, option yield calculation, option implied volatility calculation, and option portfolio construction, etc.](https://github.com/JiahaoLi-creator/Zhejiang-Gongshang-University-Equity-Investment-Intern/blob/master/program/Function.py)
+##### [Function_jump.py：Contains numerous functions for calculating jump risk factors](https://github.com/JiahaoLi-creator/Zhejiang-Gongshang-University-Equity-Investment-Intern/blob/master/program/Function_jump.py)
+##### [ivix.py：Calculates the ivix index](https://github.com/JiahaoLi-creator/Zhejiang-Gongshang-University-Equity-Investment-Intern/blob/master/program/ivix.py)
+##### [Jump_regression.py：Calculates regressions of option portfolio returns on jump risk factors](https://github.com/JiahaoLi-creator/Zhejiang-Gongshang-University-Equity-Investment-Intern/blob/master/program/Jump_regression.py)
+##### [Jump_risk_factors.py：Calculates Jump Risk Factor](https://github.com/JiahaoLi-creator/Zhejiang-Gongshang-University-Equity-Investment-Intern/blob/master/program/Jump_risk_factors.py)
+##### [Options_Classification.py：Categorizes the SSE 50 ETF options since 2016 and find the ATM options for each trading day](https://github.com/JiahaoLi-creator/Zhejiang-Gongshang-University-Equity-Investment-Intern/blob/master/program/Options_Classification.py)
+##### [Straddle_vol_jump.py：Calculates the sensitivity of ATM straddle portfolio returns to volatility risk and jump risk](https://github.com/JiahaoLi-creator/Zhejiang-Gongshang-University-Equity-Investment-Intern/blob/master/program/Straddle_vol_jump.py)
+##### [psp_csp_vol.py：Calculates the sensitivity of bull call spread returns and bear put spread returns to volatility risk](https://github.com/JiahaoLi-creator/Zhejiang-Gongshang-University-Equity-Investment-Intern/blob/master/program/psp_csp_vol.py)
+##### [Straddle_VRP.py：Calculates the Sensitivity of ATM Straddle Portfolio Returns to Volatility Risk Premiums (VRP)](https://github.com/JiahaoLi-creator/Zhejiang-Gongshang-University-Equity-Investment-Intern/blob/master/program/Straddle_VRP.py)
+##### [SV+_modeling.py：Models stochastic volatility models with volatility risk pricing](https://github.com/JiahaoLi-creator/Zhejiang-Gongshang-University-Equity-Investment-Intern/blob/master/program/SV%2B_modeling.py)
+##### [SVJ+_modeling.py：Models stochastic volatility jump models with jump risk pricing](https://github.com/JiahaoLi-creator/Zhejiang-Gongshang-University-Equity-Investment-Intern/blob/master/program/SVJ%2B_modeling.py)
