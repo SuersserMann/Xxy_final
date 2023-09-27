@@ -1,0 +1,28 @@
+                                 OLS Regression Results                                
+=======================================================================================
+Dep. Variable:      Return_normalized   R-squared (uncentered):                   0.035
+Model:                            OLS   Adj. R-squared (uncentered):              0.033
+Method:                 Least Squares   F-statistic:                              17.30
+Date:                Mon, 17 Apr 2023   Prob (F-statistic):                    5.92e-14
+Time:                        15:19:29   Log-Likelihood:                         -2702.6
+No. Observations:                1929   AIC:                                      5413.
+Df Residuals:                    1925   BIC:                                      5435.
+Df Model:                           4                                                  
+Covariance Type:            nonrobust                                                  
+==============================================================================================
+                                 coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------------
+monthly_RV_call_normalized    -0.1868      0.028     -6.607      0.000      -0.242      -0.131
+intensity_22_normalized       -0.1147      0.035     -3.292      0.001      -0.183      -0.046
+size_22_normalized            -0.1332      0.078     -1.712      0.087      -0.286       0.019
+sizevol_22_normalized          0.3134      0.071      4.404      0.000       0.174       0.453
+==============================================================================
+Omnibus:                      306.692   Durbin-Watson:                   0.173
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              502.284
+Skew:                           1.052   Prob(JB):                    8.52e-110
+Kurtosis:                       4.349   Cond. No.                         7.85
+==============================================================================
+
+Notes:
+[1] R² is computed without centering (uncentered) since the model does not contain a constant.
+[2] Standard Errors assume that the covariance matrix of the errors is correctly specified.
