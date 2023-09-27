@@ -1,4 +1,6 @@
 #### This repository contains all scripts for analyzing the sensitivity of option returns to volatility risk and jump risk
+##### [image](https://github.com/JiahaoLi-creator/Zhejiang-Gongshang-University-Equity-Investment-Intern/blob/master/Expected%20Put%20Option%20Return.png)
+##### [image](https://github.com/JiahaoLi-creator/Zhejiang-Gongshang-University-Equity-Investment-Intern/blob/master/Expected%20Call%20Option%20Return.png)
 ##### [calc_IV.py: Calculates the implied volatility of an option](https://github.com/JiahaoLi-creator/Zhejiang-Gongshang-University-Equity-Investment-Intern/blob/master/program/Calc_IV.py)
 ##### [Calc_Portfolio_Returns.py：Calculates the YTM for each set of option portfolios](https://github.com/JiahaoLi-creator/Zhejiang-Gongshang-University-Equity-Investment-Intern/blob/master/program/Calc_Portfolio_Returns.py)
 ##### [Function.py：Includes functions for option classification, option yield calculation, option implied volatility calculation, and option portfolio construction, etc.](https://github.com/JiahaoLi-creator/Zhejiang-Gongshang-University-Equity-Investment-Intern/blob/master/program/Function.py)
