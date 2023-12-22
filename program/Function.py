@@ -6,13 +6,13 @@ import scipy.stats as si
 import matplotlib.dates as mdates
 import scipy.stats as stats
 import os
+from path import script_directory
 import statsmodels.api as sm
 
-
-pkl_path = 'C:/Users/86156/Desktop/option/data/分类结果/pkl/'
-option_path = 'C:/Users/86156/Desktop/option/data/分类结果/csv/option/'
-portfolio_path = 'C:/Users/86156/Desktop/option/data/分类结果/csv/option_portfolio/'
-
+# 定义路径
+pkl_path = os.path.join(script_directory, 'data/classification_results/pkl/')
+option_path = os.path.join(script_directory, 'data/classification_results/csv/option/')
+portfolio_path = os.path.join(script_directory, 'data/classification_results/csv/option_portfolio/')
 
 def merge_option(df1, df_option):
     df1 = df1.merge(df_option[['交易日期', '行权价', '成交量(手)', '到期剩余天数', '期权代码', '收盘价']],
@@ -28,7 +28,7 @@ def fill_closing_price(df_option):
         try:
             date = row['交易日期']
             code = row['期权代码']
-            file_path = f"C:/Users/86156/Desktop/option/data/ETF数据/min_options_etf50/{date}.csv"
+            file_path = f"D:/PyCharm project/The-Pricing-of-Volatility-and-Jump-Risks-in-Index-Options/data/classification_results/ETF_data/min_options_etf50/{date}.csv"
             option_data = pd.read_csv(file_path, skiprows=1, encoding='gbk')
             option_row = option_data[option_data['期权代码'] == code]
             closing_price = option_row[option_row['交易日期'] == '%s' % date + ' 15:00:00']['收盘价'].values[0]
